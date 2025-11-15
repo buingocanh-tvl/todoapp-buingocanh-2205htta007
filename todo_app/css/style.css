@@ -1,0 +1,140 @@
+/* ==============================
+   GLOBAL STYLE - AMAZON THEME
+   ============================== */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #FFF7E6;     /* vàng nhạt nhẹ */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* Heading */
+h2, h3 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* ==============================
+   BUTTON STYLE
+   ============================== */
+.btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+}
+
+.btn.add      { background-color: #FF9900; }
+.btn.logout   { background-color: #CC0000; }
+.btn.edit     { background-color: #FFC107; color: black; }
+.btn.delete   { background-color: #E74C3C; }
+
+.btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.85;
+}
+
+/* ==============================
+   TABLE
+   ============================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+table th {
+    background-color: #FF9900;
+    color: #fff;
+    padding: 14px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+table tr:hover {
+    background-color: #FFF1D6;
+}
+
+/* ==============================
+   BADGE – TRẠNG THÁI
+   ============================== */
+
+.badge {
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+}
+
+.badge-pending {
+    background-color: #FF7F27; /* cam */
+}
+
+.badge-in_progress {
+    background-color: #F4D03F; /* vàng */
+    color: black;
+}
+
+.badge-completed {
+    background-color: #2ECC71; /* xanh lá */
+}
+
+/* ==============================
+   PROGRESS BAR
+   ============================== */
+
+.progress-container {
+    width: 100%;
+    background-color: #ffe8c6;
+    height: 26px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #FF9900, #FFB347);
+    width: 0%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 26px;
+    transition: width 0.6s ease-in-out;
+}
+
+/* ==============================
+   CARD STYLE FOR USER BOX
+   ============================== */
+
+.user-box {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    border-left: 5px solid #FF9900;
+    margin-bottom: 25px;
+    font-size: 17px;
+    box-shadow: 0 0 10px rgba(255,153,0,0.2);
+}
